@@ -1,0 +1,173 @@
+// Partial imports ---------------------------/
+
+@import 'partials/variables';
+@import	'partials/banners';
+@import	'partials/learn';
+@import 'partials/articles';
+
+
+// Homepage ---------------------------/
+
+/***************************
+GENERAL
+****************************/
+
+* {
+	font-family: 'Work Sans', sans-serif;
+	letter-spacing: 1;
+}
+
+img {
+	max-width: 100%;
+	width: 100%;
+}
+
+#main-bg,
+.links {
+	background-color: $color-secondary;
+}
+
+.main {
+	background-color: $color-plain;
+	padding-bottom: 10px;
+}
+
+.row {
+	margin-bottom: 10px;
+}
+
+.container {
+	max-width: 900px;
+}
+
+.col-sm-6 {
+	padding: 0 !important;
+}
+
+/***************************
+MAIN STORY
+****************************/
+
+.bn {
+	height: 400px;
+}
+
+.headline {
+	background-color: $color-plain;
+	@media (min-width: 768px) { 
+		position: absolute;
+		top: 30%;
+		left: 55%;
+		padding: 20px;
+	}
+	@media (max-width: 768px) { 
+		margin-top: -50px;
+		width: 90%;
+		padding-top: 5%;
+	}
+}
+
+.headline-title {
+	font-size: 2em;
+	color: $color-font;
+	text-decoration: none;
+	line-height: 1;
+	&:hover {
+		color: $color-font;
+		text-decoration-color: $color-primary;
+	}
+	@media (max-width: 768px) { 
+		font-size: 1.5em;
+	}
+	@media (max-width: 567px) { 
+		font-size: 1.25em;
+	}
+}
+
+.headline-time {
+	padding: 10px 0;
+	@media (max-width: 768px) { 
+		font-size: 1rem;
+	}
+}
+
+.headline-img {
+	padding: 0;
+}
+
+/***************************
+ARTICLES
+****************************/
+
+.article {
+
+	@media (min-width: 768px) { 
+		height: 200px;
+		padding: 0 5%;
+	}
+	overflow: hidden;
+}
+
+.article-title {
+	font-size: 2em;
+	color: $color-font;
+	text-decoration: none;
+	line-height: 1;
+	@media (max-width: 768px) { 
+		font-size: 1.25em;
+	}
+	@media (max-width: 567px) { 
+		font-size: 1em;
+	}
+	&:hover {
+		color: $color-font;
+		text-decoration-color: $color-primary;
+	}
+}
+
+.date,
+.time {
+	padding: 10px 0;
+	@media (max-width: 768px) { 
+		font-size: .75rem;
+	}
+}
+
+.mini-img {
+object-fit: cover;	
+height: 100px;
+	@media (min-width: 768px) { 
+ 		width:330px;
+  		height:230px;
+	}
+}
+
+/***************************
+FOOTER LINKS
+****************************/
+
+.links {
+	padding: 20px 0 100px 0;
+	text-align: center;
+	.row {
+		margin: 0;
+	}
+}
+
+.bullet {
+	padding: 0 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

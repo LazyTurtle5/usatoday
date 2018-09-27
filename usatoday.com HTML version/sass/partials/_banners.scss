@@ -1,0 +1,69 @@
+// Banners ---------------------------/
+
+
+#banner {
+	background-color: $color-primary;
+	@media (min-width: 768px) { 
+		height: 70px;
+	}
+}
+
+.banner {
+	h5 {
+		padding: 20px 0;
+		margin: 0;
+		color: $color-plain;
+		font-size: .85rem;
+		letter-spacing: 1;
+		@media (min-width: 768px) { 
+			font-size: 1rem;
+		}
+	}
+	.btn {
+		margin-top: 25px;
+		font-size: .85rem;
+		letter-spacing: 1;
+		background-color: transparent;
+		border: solid 2px $color-plain;
+		border-radius: 0;
+		@media (min-width: 576px) { 
+			margin-top: 16px;
+		}
+	}
+	.btn:hover {
+		border: solid 2px $color-plain;
+		background-color: $color-plain;
+		color: $color-primary;
+	}
+}
+
+#logo_banner {
+	background-color: $color-plain;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.img-wrap {
+	height: 80px;
+	img {
+		height: 40px;
+		margin: 20px auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

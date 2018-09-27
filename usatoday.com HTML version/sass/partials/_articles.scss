@@ -1,0 +1,103 @@
+// Articles ---------------------------/
+
+/******************
+GENERAL
+******************/
+
+.date {
+	color: rgba(0,0,0,.6);
+}
+
+.image {
+	padding: 2.5% 0 5% 0;
+	img {
+		@media (min-width: 768px) {
+			object-fit: cover;		
+			height: 600px;
+		}
+	}
+}
+
+.more {
+	font-weight: 800;
+}
+
+.privacy {
+	color: #000;
+	font-weight: 800;
+	text-decoration: none;
+	border-bottom: 2px solid $color-primary;
+	&:hover {
+		text-decoration: none;
+		color: #000;
+	}
+}
+
+.sub-title {
+	font-weight: 800;
+	color: #5DA6E3;
+}
+
+.terms {
+	color: #000;
+	&:hover {
+		color: #000;
+		text-decoration: none;
+	}
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+/******************
+TITLE
+******************/
+
+.article_title {
+	padding: 0 5%;
+	h1 {
+		padding: 20px 0;
+		font-size: 3em;
+		font-weight: 800;
+		margin: 0;
+	}
+	hr {
+		border-top: 10px solid $color-primary;
+		width: 50px;
+		float: left;
+		margin-bottom: 2rem;
+	}
+	p {
+		clear: left;
+		line-height: 1;
+		margin: 0;
+		color: rbga(0,0,0,.73);
+	}
+	.author {
+		font-size: 1.25em;
+		font-weight: 600;
+	}
+}
+
+/******************
+ARTICLE
+******************/
+
+.article_body {
+	padding: 5%;
+	letter-spacing: .5;
+	line-height: 1.6;
+	color: rbga(0,0,0,.73);
+	font-size: 1.1em;
+	.extra {
+		font-size: .9em;
+		font-style: italic;
+	}
+}
+
+
