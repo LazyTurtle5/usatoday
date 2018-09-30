@@ -5,4 +5,4 @@ This is a clone website for USA Today, just so that I can practice some coding s
 
 Demo Link
 
-www.usatoday.mattshaw.io
+http://usatoday.mattshaw.io/
